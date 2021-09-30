@@ -15,8 +15,8 @@ I was inspired by one application that i used call XMind https://www.xmind.net/
 ## Version
 The frist version was created in neatbeans but I recreated it in <strong>Intellij Idea</strong> with Java 9 and JavaFX 
 
->> On this project I tried to apply what I learn form this book <a href ="https://www.apress.com/gp/book/9781484230411">Pro JavaFX 9</a> and <a href ="https://www.pearson.com/us/higher-education/product/Liang-Intro-to-Java-Programming-Comprehensive-Version-10th-Edition/9780133761313.html">Intro to Java Programming, Comprehensive Version, 10th Edition</a> 
->> I used many concepts such:
+> On this project I tried to apply what I learn form this book <a href ="https://www.apress.com/gp/book/9781484230411">Pro JavaFX 9</a> and <a href ="https://www.pearson.com/us/higher-education/product/Liang-Intro-to-Java-Programming-Comprehensive-Version-10th-Edition/9780133761313.html">Intro to Java Programming, Comprehensive Version, 10th Edition</a> 
+> I used many concepts such:
     <ul>
       <li>JavaFX Node and Shapes (Rectangle, Line, Circle)</li>
       <li>Collection (List, ArrayList)</li>

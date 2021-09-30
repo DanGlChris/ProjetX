@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+
+<HBox maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="400.0" spacing="5.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectx.menu.Sous_menu0Controller">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="25.0" styleClass="panetools" stylesheets="@sous_menu0.css">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8_Menu_64px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Separator orientation="VERTICAL" prefHeight="200.0">
+         <HBox.margin>
+            <Insets left="2.5" />
+         </HBox.margin>
+      </Separator>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="25.0" styleClass="panetools" stylesheets="@sous_menu0.css">
+         <children>
+            <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8_Save_50px_1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Separator orientation="VERTICAL" prefHeight="200.0">
+         <HBox.margin>
+            <Insets left="2.5" />
+         </HBox.margin>
+      </Separator>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="25.0" styleClass="panetools" stylesheets="@sous_menu0.css">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8_Low_Priority_64px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="25.0" styleClass="panetools" stylesheets="@sous_menu0.css">
+         <children>
+            <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="1.0" layoutY="1.0" onMousePressed="#Add_new_task_component" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8_Add_File_52px_2.png" />
+               </image>
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </ImageView>
+         </children>
+      </Pane>
+      <Region maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="25.0" prefWidth="2000.0">
+         <HBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </HBox.margin>
+      </Region>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="25.0" styleClass="panetools" stylesheets="@sous_menu0.css">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8_Long_Arrow_Left_52px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="25.0" styleClass="panetools" stylesheets="@sous_menu0.css">
+         <children>
+            <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8_Right_Arrow_52px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="25.0" styleClass="panetools" stylesheets="@sous_menu0.css">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/icons8_Right_Navigation_Toolbar_50px.png" />
+               </image>
+            </ImageView>
+         </children>
+         <HBox.margin>
+            <Insets right="3.0" />
+         </HBox.margin>
+      </Pane>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</HBox>

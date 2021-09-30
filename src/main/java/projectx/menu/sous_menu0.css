@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.panetools:hover{
+    -fx-background-color: #DDD;
+}
+.panetools:pressed{
+    -fx-background-color: #BCBCBC;
+}

@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.bgColor:hover{
+    -fx-background-color: #DDD;
+}
+.bgColor:pressed{
+    -fx-background-color: #BCBCBC;
+}
